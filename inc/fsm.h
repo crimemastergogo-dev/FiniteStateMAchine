@@ -32,9 +32,10 @@ typedef enum
 
 typedef struct
 {
-    int32 current_state;
+    state_et  current_state;
     int8  msg_buff[MAX_MSG_LEN];
     int16 msg_len;
+    int   client;
 }TCP_socket_sm_ctx_t;
 
 typedef struct

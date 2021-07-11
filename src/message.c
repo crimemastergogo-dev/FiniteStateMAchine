@@ -124,6 +124,8 @@ int main()
                 {
                     fprintf(stderr,"Connection to server failed Creation failed %d",server);
                 }
+                p_gb_context->fsm_ctxt.tcp_sm_ctxt.client = client;
+
                 INITIATE_CONNECTION(p_gb_context);
                 break;
             }

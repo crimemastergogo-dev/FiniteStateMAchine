@@ -27,4 +27,6 @@ typedef struct
     Message_t     msg;
     fsm_context_t fsm_ctxt;
 }Global_context;
+
+void INITIATE_CONNECTION(Global_context *p_gb_ctxt);
 #endif

@@ -25,14 +25,14 @@ static fp_action_routine  STATE_MACHINE[MAX_STATE][MAX_EVENT] =
 {
     /*IDLE*/
     {
-        unexpected_msg,
-        unexpected_msg,
+        unexpected_msg,  /*INITIATE*/
+        unexpected_msg,  
         unexpected_msg,
         unexpected_msg
     },
     /*ACTIVE*/
     {
-        unexpected_msg,
+        send_msg,
         unexpected_msg,
         unexpected_msg,
         unexpected_msg
