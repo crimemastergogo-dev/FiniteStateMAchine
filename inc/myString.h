@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-#ifndef _STRING_ADT__
+#ifndef _STRING_ADT_
 #define _STRING_ADT_
 
 #define MAX_STRING_LIMIT 1024

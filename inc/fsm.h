@@ -1,10 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+
 #ifndef _FSM_FRAMEWORK_
 #define _FSM_FRAMEWORK_
 
 #define MAX_MSG_LEN     1460 
-typedef unsigned char   int8
-typedef unsigned short  int16
-typedef unsigned int    int32
+typedef unsigned char   int8;
+typedef unsigned short  int16;
+typedef unsigned int    int32;
 
 
 
@@ -41,7 +44,7 @@ typedef struct
 
 typedef int (*fp_action_routine)
 (
-void  *p_msg;
+ void  *p_msg,
  fsm_context_t *p_gb_fsm_ctxt
 );
 

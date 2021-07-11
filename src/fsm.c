@@ -1,4 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "fsm.h"
+#include "event_hndl.h"
 
 int8 *FSM_STATE[] = 
 {
@@ -18,7 +21,7 @@ int8 *FSM_EVENT[] =
 };
 
 
-static fp_action_routine  STATE_MACHINE[MAX_STATE][MAXT_EVENT] = 
+static fp_action_routine  STATE_MACHINE[MAX_STATE][MAX_EVENT] = 
 {
     /*IDLE*/
     {

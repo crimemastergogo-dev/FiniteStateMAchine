@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVE	inc/fsm.h	/^    ACTIVE,$/;"	e	enum:__anon4
+BINARY_PATH	Makefile	/^BINARY_PATH = .\/bin\/$/;"	m
+DisplayString	src/string.c	/^char *DisplayString(String *ptr)$/;"	f
+FSM_EVENT	src/fsm.c	/^int8 *FSM_EVENT[] = $/;"	v
+FSM_STATE	src/fsm.c	/^int8 *FSM_STATE[] = $/;"	v
+Global_context	inc/message.h	/^}Global_context;$/;"	v	typeref:struct:__anon3
+HEADER_PATH	Makefile	/^HEADER_PATH = .\/inc\/$/;"	m
+IDLE	inc/fsm.h	/^    IDLE,$/;"	e	enum:__anon4
+INITIATE	inc/fsm.h	/^    INITIATE,$/;"	e	enum:__anon5
+INITIATE_CONNECTION	src/event_hndl.c	/^void INITIATE_CONNECTION(Global_context *p_gb_ctxt)$/;"	f
+INITIATE_LINK	inc/message.h	/^    INITIATE_LINK,$/;"	e	enum:__anon1
+MAX_EVENT	inc/fsm.h	/^    MAX_EVENT$/;"	e	enum:__anon5
+MAX_MSG_LEN	inc/fsm.h	7;"	d
+MAX_STATE	inc/fsm.h	/^    MAX_STATE$/;"	e	enum:__anon4
+MAX_STRING_LIMIT	inc/myString.h	8;"	d
+Message_t	inc/message.h	/^}Message_t;$/;"	t	typeref:struct:__anon2
+RECEIVE_EV	inc/fsm.h	/^    RECEIVE_EV,$/;"	e	enum:__anon5
+SEND	inc/message.h	/^    SEND$/;"	e	enum:__anon1
+SEND_EV	inc/fsm.h	/^    SEND_EV,$/;"	e	enum:__anon5
+SOURCE_PATH	Makefile	/^SOURCE_PATH = .\/src\/$/;"	m
+STATE_MACHINE	src/fsm.c	/^static fp_action_routine  STATE_MACHINE[MAX_STATE][MAXT_EVENT] = $/;"	v	file:
+String	inc/myString.h	/^}String;$/;"	t	typeref:struct:__anon8
+TCP_Client	src/message.c	/^int TCP_Client(struct sockaddr_in Client_Address,String *p_peer_IP)$/;"	f
+TCP_server	src/message.c	/^int TCP_server(struct sockaddr_in Server_Address)$/;"	f
+TCP_socket_sm_ctx_t	inc/fsm.h	/^}TCP_socket_sm_ctx_t;$/;"	t	typeref:struct:__anon6
+TIMER_EXPIRE	inc/fsm.h	/^    TIMER_EXPIRE,$/;"	e	enum:__anon4
+TIMER_EXPIREY_EV	inc/fsm.h	/^    TIMER_EXPIREY_EV,$/;"	e	enum:__anon5
+Unpack	src/message.c	/^Message_t *Unpack(char buffer[sizeof(Message_t)])$/;"	f
+WAIT_RESP	inc/fsm.h	/^    WAIT_RESP,$/;"	e	enum:__anon4
+_EVENT_HANDLER_	inc/event_hndl.h	4;"	d
+_FSM_FRAMEWORK_	inc/fsm.h	5;"	d
+_STRING_ADT_	inc/myString.h	6;"	d
+chr	inc/myString.h	/^    char *chr;$/;"	m	struct:__anon8
+current_state	inc/fsm.h	/^    int32 current_state;$/;"	m	struct:__anon6
+event_et	inc/fsm.h	/^}event_et;$/;"	t	typeref:enum:__anon5
+fp_action_routine	inc/fsm.h	/^typedef int (*fp_action_routine)$/;"	t
+fsm_context_t	inc/fsm.h	/^}fsm_context_t;$/;"	t	typeref:struct:__anon7
+fsm_ctxt	inc/message.h	/^    fsm_context_t fsm_ctxt;$/;"	m	struct:__anon3
+fsm_entry_func	src/fsm.c	/^int fsm_entry_func$/;"	f
+getString	src/string.c	/^void getString(String *ptr)$/;"	f
+header	inc/message.h	/^    header_et header;$/;"	m	struct:__anon2
+header_et	inc/message.h	/^}header_et;$/;"	t	typeref:enum:__anon1
+int16	inc/fsm.h	/^typedef unsigned short  int16;$/;"	t
+int32	inc/fsm.h	/^typedef unsigned int    int32;$/;"	t
+int8	inc/fsm.h	/^typedef unsigned char   int8;$/;"	t
+length	inc/myString.h	/^    int length;$/;"	m	struct:__anon8
+main	src/message.c	/^int main()$/;"	f
+mallocString	src/string.c	/^void mallocString(String *ptr,int len)$/;"	f
+message	inc/message.h	/^    String    message;$/;"	m	struct:__anon2
+msg	inc/message.h	/^    Message_t     msg;$/;"	m	struct:__anon3
+msg_buff	inc/fsm.h	/^    int8  msg_buff[MAX_MSG_LEN];$/;"	m	struct:__anon6
+msg_len	inc/fsm.h	/^    int16 msg_len;$/;"	m	struct:__anon6
+pack	src/message.c	/^char pack(Message_t *p,int idx)$/;"	f
+state_et	inc/fsm.h	/^}state_et;$/;"	t	typeref:enum:__anon4
+tcp_sm_ctxt	inc/fsm.h	/^    TCP_socket_sm_ctx_t tcp_sm_ctxt;$/;"	m	struct:__anon7
+unexpected_msg	src/event_hndl.c	/^int unexpected_msg(void * API,fsm_context_t *p_gb_fsm_ctxt)$/;"	f
