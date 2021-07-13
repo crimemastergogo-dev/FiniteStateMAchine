@@ -22,6 +22,7 @@ void getString(String *ptr)
     char temp[MAX_STRING_LIMIT];
     int index =0;
 
+    fflush(stdin);
     fgets(temp,MAX_STRING_LIMIT,stdin);
     int len = strlen(temp);
 
